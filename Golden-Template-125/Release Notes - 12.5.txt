@@ -1,0 +1,73 @@
+***************************************
+Version: 12.5 (100)
+-------------------
+Notes:
+This is the alpha release
+***************************************
+Version: 12.5 (101)
+-------------------
+Notes:
+NlaSvc set to automatic-delayed start on DC's to prevent network discovery from occurring prior to the domain being reachable
+***************************************
+Version: 12.5 (102)
+-------------------
+Notes:
+Fix for IM & Presence Deployment Issue
+Automatic transfer of Wildcard cert & key to the c:\icm\ssl\[certs,keys] directories
+***************************************
+Version: 12.5 (103)
+-------------------
+Notes:
+Added Enterprise Admins GPO to remove Enterprise Admins from being assigned by the General GPO
+***************************************
+Version: 12.5 (104)
+-------------------
+Notes:
+Fix PCD from showing on a guest network when windows firewall is enabled
+Retry Secondary DC promotion up to 2 times if it fails.
+***************************************
+Version: 12.5 (105)
+-------------------
+Notes:
+Add Extension Mobility DNS delegation
+Ability to create trusts and forwarders for MT domains
+VVB's added to spreadsheet options for 4K-12K Additional components
+***************************************
+Version: 12.5 (200)
+-------------------
+Notes:
+This is the beta release
+***************************************
+Version: 12.5 (201)
+-------------------
+Notes:
+Updates to Webex CCE General Policy
+***************************************
+Version: 12.5 (202)
+-------------------
+Notes:
+Updated ICM Logger Import file
+***************************************
+Version: 12.5 (203)
+-------------------
+Notes:
+When servers use UTC timezone, non-PDC Windows machines are not being set to right timezone
+***************************************
+Version: 12.5 (204)
+-------------------
+Notes:
+CVP-Setup.ps1 is no longer ran on CVP_RPT* VMs
+***************************************
+Version: 12.5 (205)
+-------------------
+Notes:
+Some redundant logic tweaks
+User interaction added to non-terminating try/catch blocks
+Added DNS check (unverified) - line 920
+***************************************
+Version: 12.5 (206)
+-------------------
+Notes:
+Updated check for $ta before Remove-Variable - line 160
+Added HCS GPO import to XLS file and updated GPO backup.zip
+***************************************
